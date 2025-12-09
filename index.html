@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <title>Quali Quick Ny ApS</title>
+    <style>
+        body { margin:0; font-family: "Helvetica Neue", Arial, sans-serif; background:#f6f6f6; color:#1a1a1a; }
+        section { padding:100px 10%; }
+        h1, h2 { font-weight:800; text-transform:uppercase; letter-spacing:1px; }
+        h1 { font-size:48px; }
+        h2 { font-size:32px; margin-bottom:30px; }
+
+        /* Shorter and smaller button */
+        .btn { 
+            padding:8px 14px;        /* <-- уменьшено */
+            background:#fff; 
+            color:#000; 
+            text-decoration:none; 
+            font-weight:bold; 
+            border-radius:4px; 
+            margin-top:20px; 
+            display:inline-block; 
+            font-size:13px;         /* <-- уменьшено */
+            transition:0.3s; 
+            border:1px solid #000;
+        }
+        .btn:hover { background:#f2f2f2; }
+
+        .hero { background:#000; color:#fff; height:100vh; display:flex; flex-direction:column; justify-content:center; }
+
+        .about { display:flex; gap:40px; align-items:center; }
+        .about img { width:45%; border-radius:8px; }
+
+        .services, .benefits, .process { display:grid; grid-template-columns:repeat(3,1fr); gap:40px; }
+
+        .contact { background:#000; color:#fff; height:100vh; display:flex; justify-content:space-between; align-items:center; }
+        .contact form { display:flex; flex-direction:column; width:40%; }
+        .contact input, .contact textarea { margin-bottom:15px; padding:12px; border:none; border-radius:4px; }
+        .contact button { 
+            padding:8px 16px;
+            background:#fff; 
+            border:none; 
+            color:#000; 
+            cursor:pointer; 
+            font-weight:bold; 
+            border-radius:4px;
+        }
+
+        footer { background:#111; color:#fff; text-align:center; padding:40px; }
+    </style>
+</head>
+<body>
+
+<!-- HERO -->
+<section class="hero">
+    <h1>Quali Quick Ny ApS</h1>
+    <p style="font-size:20px; max-width:650px;">
+        Vi skaber målrettet erhvervsstøtte, investeringsrådgivning og finansiel sparring for virksomheder, som ønsker at vokse hurtigere og mere strategisk. 
+        Vores tilgang kombinerer analytisk dybde med avantgardistisk tænkning for at skabe løsninger, der ligger foran markedet.
+    </p>
+    <a href="#contact" class="btn">Kontakt</a>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2>Hvem står bag visionen?</h2>
+    <div class="about">
+        <div>
+            <p>
+                Quali Quick Ny ApS er et dansk rådgivningshus, der specialiserer sig i finansiel udvikling, investeringsanalyse og struktureret support til både etablerede og voksende virksomheder. 
+                Vi kombinerer kreative metoder med præcis rådgivning for at sikre, at beslutninger træffes med både mod og indsigt. 
+                Vores tilgang er formet af nysgerrighed og kontinuerlig innovation, hvilket gør os i stand til at identificere muligheder, som andre ofte overser. 
+                Vi arbejder tæt sammen med vores kunder i hele processen for at sikre, at strategier kan omsættes til konkrete resultater. 
+                Hos os handler udvikling ikke om tilfældigheder – men om gennemtænkte og bæredygtige løsninger.
+            </p>
+        </div>
+        <img src="https://plus.unsplash.com/premium_photo-1663134377392-50c34664d632?w=600&auto=format&fit=crop&q=60" alt="Team">
+    </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+    <h2>Vores kerneydelser</h2>
+    <div class="services">
+        <div>
+            <h3>Struktureret Erhvervsstøtte</h3>
+            <p>
+                Vi hjælper virksomheder med at optimere deres interne processer, styrke beslutningsgrundlaget og skabe klare udviklingsretninger. 
+                Gennem analyser, sparring og strategiudvikling skaber vi fundamentet for vækst. 
+                Vores støtte er tilpasset virksomhedens størrelse, marked og ambitioner.
+            </p>
+        </div>
+        <div>
+            <h3>Investeringsrådgivning</h3>
+            <p>
+                Vi identificerer investeringsmuligheder baseret på data, risikoanalyse og virksomhedens fremtidige mål. 
+                Med en avantgardistisk tilgang går vi ud over den klassiske rådgivning og vurderer nye og alternative investeringskanaler. 
+                Vi fokuserer på langsigtet værdi frem for kortsigtede gevinster.
+            </p>
+        </div>
+        <div>
+            <h3>Finansiel Konsulentservice</h3>
+            <p>
+                Vores finansielle rådgivning hjælper virksomheder med at skabe stabilitet, struktur og vækst i deres økonomi. 
+                Vi analyserer cashflow, budgetter og finansielle risici og udarbejder handlingsplaner, der er lette at implementere. 
+                Målet er at give virksomheder klarhed og økonomisk tryghed.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- BENEFITS -->
+<section id="benefits">
+    <h2>Hvorfor vælge os?</h2>
+    <div class="benefits">
+        <div>
+            <h3>Fremadskuende Rådgivning</h3>
+            <p>
+                Vi arbejder ikke kun med nutiden – vi analyserer markedsudviklinger og guid­er dig mod løsninger, der gør dig konkurrencedygtig i morgen.
+            </p>
+        </div>
+        <div>
+            <h3>Skræddersyede Strategier</h3>
+            <p>
+                Ingen virksomheder er ens. Vi udvikler strategier designet specifikt til din virksomheds struktur, udfordringer og ambiti­oner.
+            </p>
+        </div>
+        <div>
+            <h3>Høj Faglighed & Troværdighed</h3>
+            <p>
+                Alt, hvad vi leverer, bygger på gennemanalyserede data, brancheforståelse og en dyb passion for finansiel udvikling.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- PROCESS -->
+<section id="process">
+    <h2>Sådan arbejder vi</h2>
+    <div class="process">
+        <div>
+            <h3>1. Analyse & Forståelse</h3>
+            <p>
+                Vi starter med en dybdegående gennemgang af virksomhedens situation, behov og udfordringer for at skabe et klart beslutningsgrundlag.
+            </p>
+        </div>
+        <div>
+            <h3>2. Udvikling af Strategi</h3>
+            <p>
+                Vi udarbejder en konkret og realistisk handlingsplan baseret på data, finansielle modeller og markedsindsigt.
+            </p>
+        </div>
+        <div>
+            <h3>3. Implementering & Opfølgning</h3>
+            <p>
+                Vi følger processen helt til dørs og sikrer, at strategien implementeres effektivt, samtidig med at vi foretager løbende evalueringer.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+    <div style="width:50%;">
+        <h2>Lad os komme i dialog</h2>
+        <p>
+            Vi står klar til at hjælpe dig videre – uanset om du søger rådgivning, analyse eller strategisk sparring. 
+            Tag kontakt via mail, så vender vi hurtigt tilbage med næste skridt.
+        </p>
+        <p>
+            Sammen kan vi skabe en stærkere, mere fremtidssikret virksomhed med finansielle beslutninger, der gør en reel forskel.
+        </p>
+        <p><strong>Email:</strong> contact@qualiquickny.org</p>
+        <p><strong>Adresse:</strong> Kløvermarken 13, 7480 Vildbjerg</p>
+    </div>
+
+    <form>
+        <h3>Skriv til os</h3>
+        <input type="text" placeholder="Navn">
+        <input type="email" placeholder="Email">
+        <textarea rows="4" placeholder="Besked"></textarea>
+        <button class="btn" style="background:#fff; color:#000; cursor:pointer;">Send</button>
+    </form>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    © 2025 Quali Quick Ny ApS – Finansiel rådgivning med avantgardistisk tilgang
+</footer>
+
+</body>
+</html>
